@@ -4,13 +4,19 @@
   
     
     <entry>
-      <title>hello word</title>
-      <link href="/2021/11/11/hello-word/"/>
-      <url>/2021/11/11/hello-word/</url>
+      <title>新博客,新启程!</title>
+      <link href="/2021/11/11/%E6%96%B0%E5%8D%9A%E5%AE%A2,%E6%96%B0%E5%90%AF%E7%A8%8B/"/>
+      <url>/2021/11/11/%E6%96%B0%E5%8D%9A%E5%AE%A2,%E6%96%B0%E5%90%AF%E7%A8%8B/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>asdsa</p><p>d</p><p>as</p><p>das</p><p>d</p><p>asd</p><p>as</p><p>d a</p><p>sd</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> C++ </tag>
+            
+        </tags>
       
     </entry>
     
