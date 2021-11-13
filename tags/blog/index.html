@@ -11,8 +11,8 @@
   
   <title>
     
-      新博客,新启程! 
-      
+      Tag 
+       : blog
       
       |
     
@@ -67,10 +67,10 @@
     <a href="/">
       <!-- 头像取消懒加载，添加no-lazy -->
       
-        <img no-lazy src="/images/avatar.png" alt="">
+        <img src="/images/avatar.png" alt="">
       
     </a>
-    <div class="nickname"><a href="/">如果事事与愿违,就相信上天一定另有安排.<br>if everyhting goes against one's will. l believe God has another plan.</a></div>
+    <div class="nickname"><a href="/">if everyhting goes against one's will. l believe God has another plan.</a></div>
   </div>
   <div class="navbar">
     <ul>
@@ -97,109 +97,30 @@
 
 
       <div class="flex-container">
-        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
-<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
+        <!-- 标签详情页，展示某个标签下的文章列表，url形式：https://yoursite/tags/某个标签/ -->
 
-<!-- LaTex Display -->
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-
-
-
-  
-
-  
-
-  
-
-  
-  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
-  <div class="container post-details" id="post-details">
-    <div class="post-content">
-      <div class="post-title">新博客,新启程!</div>
-      <div class="post-attach">
-        <span class="post-pubtime">
-          <i class="iconfont icon-updatetime" title="Update time"></i>
-          2021-11-11 00:33:00
-        </span>
-        
-      </div>
-      <div class="markdown-body">
-        <p>asdsa</p>
-<p>d</p>
-<p>as</p>
-<p>das</p>
-<p>d</p>
-<p>asd</p>
-<p>as</p>
-<p>d a</p>
-<p>sd</p>
-
-      </div>
-      
-        <div class="prev-or-next">
-          <div class="post-foot-next">
-            
-          </div>
-          <div class="post-attach">
-            <!--
-            <span class="post-pubtime">
-              <i class="iconfont icon-updatetime" title="Update time"></i>
-              2021-11-11 00:33:00
-            </span>
-            -->
-            
-          </div>
-          <div class="post-foot-prev">
-            
-          </div>
-        </div>
-      
-    </div>
-    
-
-    
-      <div class="comments-container">
-        
-
-
-  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-
-  <div id="vcomments"></div>
-
-  <script>
-    new Valine({
-      el: '#vcomments',
-      appId: 'hsIyVKEJ3VS1pfTXyx3lBeF9-gzGzoHsz',
-      appKey: 'mpfhIfmrIHmCBAkCF7cgjswz',
-      placeholder: 'Welcome!',
-      avatar: 'retro',
-      lang: 'en'
-    })
-  </script>
-
-    <style>
-      .comments-container .v .vempty {
-        display: none!important;
-      }
-    </style>
-
-
-
-
-      </div>
-    
+<div class="container tag-details">
+  <div class="content-title">
+    <h2>
+      <span>blog</span>
+    </h2>
   </div>
-
+  
+    <div class="post-list">
+      <div class="post-item" title="新博客,新启程!">
+        <span class="time-m-d">2021-11-13</span>
+        <a href="/2021/11/13/%E6%96%B0%E5%8D%9A%E5%AE%A2%EF%BC%8C%E6%96%B0%E5%90%AF%E7%A8%8B%EF%BC%81/">
+          <span>新博客,新启程!</span>
+        </a>
+      </div>
+    </div>
+  
+  <nav class="post-navigation">
+    
+    <span class="page-num">1 / 1</span>
+    
+  </nav>
+</div>
 
         <div class="footer">
   <div class="social">
@@ -450,37 +371,8 @@ MathJax = {
 
 
         
-  
-    <div class="share-icon tools-bar-item">
-      <a href="javascript: void(0)" id="share-icon">
-        <i class="iconfont iconshare"></i>
-      </a>
-      <div class="share-content hidden">
-        
-          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + %E6%96%B0%E5%8D%9A%E5%AE%A2%2C%E6%96%B0%E5%90%AF%E7%A8%8B! + '&url=' + https%3A%2F%2Fjhupo.github.io%2F2021%2F11%2F11%2F%25E6%2596%25B0%25E5%258D%259A%25E5%25AE%25A2%2C%25E6%2596%25B0%25E5%2590%25AF%25E7%25A8%258B%2F + '" target="_blank" title="Twitter">
-            <i class="iconfont icon-twitter"></i>
-          </a>
-        
-        
-          <a class="share-item" href="https://www.facebook.com/sharer.php?u=https://jhupo.github.io/2021/11/11/%E6%96%B0%E5%8D%9A%E5%AE%A2,%E6%96%B0%E5%90%AF%E7%A8%8B/" target="_blank" title="Facebook">
-            <i class="iconfont icon-facebooksquare"></i>
-          </a>
-        
-      </div>
-    </div>
-  
-  
-<script src="/js/shares.js"></script>
-
-
 
       </div>
     </div>
-  <script>
-            window.imageLazyLoadSetting = {
-                isSPA: false,
-                preloadRatio: 1,
-                processImages: null,
-            };
-        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
+  </body>
 </html>
