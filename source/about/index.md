@@ -12,7 +12,7 @@ tags:
 
 
 :house: 安徽-宿州
-:e-mail: hi.Jhpo@gmail.com
+:e-mail: hi.Jhupo@gmail.com
 
 > <center>希望生活简单点，再简单点！</center>
 >
