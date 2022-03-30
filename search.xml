@@ -4,6 +4,29 @@
   
     
     <entry>
+      <title>Components Widget</title>
+      <link href="/2022/03/30/Components-Widget/"/>
+      <url>/2022/03/30/Components-Widget/</url>
+      
+        <content type="html"><![CDATA[<h2 id="自定义标题栏"><a href="#自定义标题栏" class="headerlink" title="自定义标题栏"></a>自定义标题栏</h2><h3 id="1-实现思路"><a href="#1-实现思路" class="headerlink" title="1.实现思路"></a>1.实现思路</h3><h3 id="2-实现流程"><a href="#2-实现流程" class="headerlink" title="2.实现流程"></a>2.实现流程</h3><h3 id="3-实现代码"><a href="#3-实现代码" class="headerlink" title="3.实现代码"></a>3.实现代码</h3><h3 id="4-接口预留"><a href="#4-接口预留" class="headerlink" title="4.接口预留"></a>4.接口预留</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> QtCreator </tag>
+            
+            <tag> Components </tag>
+            
+            <tag> Widget </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>生活小记</title>
       <link href="/2021/11/26/%E7%94%9F%E6%B4%BB%E5%B0%8F%E8%AE%B0/"/>
       <url>/2021/11/26/%E7%94%9F%E6%B4%BB%E5%B0%8F%E8%AE%B0/</url>
