@@ -2,7 +2,7 @@ name: Deploy Hexo Blog
 
 on:
   push:
-    branches: [develop] 
+    branches: [hexo] 
 
 jobs:
   build:
