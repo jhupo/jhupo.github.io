@@ -103,9 +103,11 @@ theme: oranges
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:jhupo/jhupo.github.io.git
-  branch: master
-  token: $DEPLOY_BLOG
+  repo: 
+    github: 
+      url: https://github.com/jhupo/jhupo.github.io.git
+      branch: master
+      token: $DEPLOY_BLOG
 
 
 #Lazy image loading
