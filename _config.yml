@@ -105,6 +105,7 @@ deploy:
   type: git
   repo: git@github.com:jhupo/jhupo.github.io.git
   branch: master
+  token: $DEPLOY_BLOG
 
 
 #Lazy image loading
